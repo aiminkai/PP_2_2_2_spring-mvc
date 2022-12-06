@@ -8,7 +8,7 @@ import java.util.List;
 
 
 @Component
-public class CarDAO {
+public class CarDAO implements CarDaoInterface{
 
     private List<Car> cars = new ArrayList<>();
 
